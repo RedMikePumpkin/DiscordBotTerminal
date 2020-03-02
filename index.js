@@ -8,7 +8,7 @@ async function main() {
     console.log("Logged in");
   });
   client.on("message", msg => {
-    console.log(msg.author.username + msg.author.discriminator + ": " + msg.content)
+    console.log(msg.author.username + "#" + msg.author.discriminator + ": " + msg.content)
   })
   client.login(token);
 }
@@ -25,6 +25,7 @@ function readline(cb) {
 }
 var stdin = process.openStdin();
 stdin.addListener("data", function (d) {
-  readline__callback(d.toString().trim());
+  if (readline__callback !== undefined) readline__callback(d.toString().trim());
+  readline__callback = undefined;
 });
 stdin.addListener("end", function () {});
