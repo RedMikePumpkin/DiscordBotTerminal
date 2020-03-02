@@ -1,0 +1,22 @@
+{
+  "name": "discord-terminal",
+  "version": "1.0.0",
+  "description": "Discord from the comfort of your terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedMikePumpkin/DiscordTerminal.git"
+  },
+  "author": "RedMikePumpkin",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/RedMikePumpkin/DiscordTerminal/issues"
+  },
+  "homepage": "https://github.com/RedMikePumpkin/DiscordTerminal#readme",
+  "dependencies": {
+    "discord.js": "^12.0.1"
+  }
+}
