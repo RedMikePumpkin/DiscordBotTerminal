@@ -1,10 +1,11 @@
 {
   "name": "discord-terminal",
   "version": "1.0.0",
-  "description": "Discord from the comfort of your terminal",
+  "description": "Discord bot manager in a terminal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

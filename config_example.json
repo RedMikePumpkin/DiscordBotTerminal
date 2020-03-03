@@ -1,0 +1,51 @@
+{
+  "servers": [
+    {
+      "_comment": "replace these values with your own server's info",
+      "name": "Server Name",
+      "token": "Token",
+      "groups": [
+        {
+          "name": "information",
+          "channels": [
+            {
+              "name": "rules",
+              "id": "channel id"
+            },
+            {
+              "name": "announcements",
+              "id": "channel id"
+            }
+          ]
+        },
+        {
+          "name": "chats",
+          "channels": [
+            {
+              "name": "general",
+              "id": "channel id"
+            },
+            {
+              "name": "memes",
+              "id": "channel id"
+            }
+          ]
+        },
+        {
+          "name": "speak",
+          "channels": [
+            {
+              "name": "voice-chat",
+              "id": "channel id"
+            },
+            {
+              "name": "General Voice",
+              "id": "channel id",
+              "voice": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
