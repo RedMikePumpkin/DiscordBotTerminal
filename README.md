@@ -1,2 +1,2 @@
-# DiscordTerminal
- Discord but it's a terminal
+# DiscordBotTerminal
+Discord bot manager in a terminal
