@@ -107,3 +107,9 @@ dist
 config.json
 config.bk.json
 logs.txt
+seenchnls.txt
+hc.txt
+listedchnls.txt
+premsg.txt
+blockedchannels.txt
+censoredservers.txt
